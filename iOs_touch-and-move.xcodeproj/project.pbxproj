@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FD29B7B16FF54B400B1D877 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FD29B7A16FF54B400B1D877 /* UIKit.framework */; };
+		3FD29B7D16FF54B400B1D877 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FD29B7C16FF54B400B1D877 /* Foundation.framework */; };
+		3FD29B7F16FF54B400B1D877 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FD29B7E16FF54B400B1D877 /* CoreGraphics.framework */; };
+		3FD29B8516FF54B400B1D877 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3FD29B8316FF54B400B1D877 /* InfoPlist.strings */; };
+		3FD29B8716FF54B400B1D877 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD29B8616FF54B400B1D877 /* main.m */; };
+		3FD29B8B16FF54B400B1D877 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD29B8A16FF54B400B1D877 /* AppDelegate.m */; };
+		3FD29B8D16FF54B400B1D877 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FD29B8C16FF54B400B1D877 /* Default.png */; };
+		3FD29B8F16FF54B400B1D877 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FD29B8E16FF54B400B1D877 /* Default@2x.png */; };
+		3FD29B9116FF54B400B1D877 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FD29B9016FF54B400B1D877 /* Default-568h@2x.png */; };
+		3FD29B9416FF54B400B1D877 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD29B9316FF54B400B1D877 /* ViewController.m */; };
+		3FD29B9716FF54B400B1D877 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FD29B9516FF54B400B1D877 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3FD29B7716FF54B400B1D877 /* iOs_touch-and-move.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOs_touch-and-move.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FD29B7A16FF54B400B1D877 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3FD29B7C16FF54B400B1D877 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3FD29B7E16FF54B400B1D877 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3FD29B8216FF54B400B1D877 /* iOs_touch-and-move-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOs_touch-and-move-Info.plist"; sourceTree = "<group>"; };
+		3FD29B8416FF54B400B1D877 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3FD29B8616FF54B400B1D877 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3FD29B8816FF54B400B1D877 /* iOs_touch-and-move-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOs_touch-and-move-Prefix.pch"; sourceTree = "<group>"; };
+		3FD29B8916FF54B400B1D877 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3FD29B8A16FF54B400B1D877 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3FD29B8C16FF54B400B1D877 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		3FD29B8E16FF54B400B1D877 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		3FD29B9016FF54B400B1D877 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3FD29B9216FF54B400B1D877 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3FD29B9316FF54B400B1D877 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3FD29B9616FF54B400B1D877 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FD29B7416FF54B400B1D877 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FD29B7B16FF54B400B1D877 /* UIKit.framework in Frameworks */,
+				3FD29B7D16FF54B400B1D877 /* Foundation.framework in Frameworks */,
+				3FD29B7F16FF54B400B1D877 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FD29B6E16FF54B300B1D877 = {
+			isa = PBXGroup;
+			children = (
+				3FD29B8016FF54B400B1D877 /* iOs_touch-and-move */,
+				3FD29B7916FF54B400B1D877 /* Frameworks */,
+				3FD29B7816FF54B400B1D877 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FD29B7816FF54B400B1D877 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FD29B7716FF54B400B1D877 /* iOs_touch-and-move.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FD29B7916FF54B400B1D877 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FD29B7A16FF54B400B1D877 /* UIKit.framework */,
+				3FD29B7C16FF54B400B1D877 /* Foundation.framework */,
+				3FD29B7E16FF54B400B1D877 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3FD29B8016FF54B400B1D877 /* iOs_touch-and-move */ = {
+			isa = PBXGroup;
+			children = (
+				3FD29B8916FF54B400B1D877 /* AppDelegate.h */,
+				3FD29B8A16FF54B400B1D877 /* AppDelegate.m */,
+				3FD29B9216FF54B400B1D877 /* ViewController.h */,
+				3FD29B9316FF54B400B1D877 /* ViewController.m */,
+				3FD29B9516FF54B400B1D877 /* ViewController.xib */,
+				3FD29B8116FF54B400B1D877 /* Supporting Files */,
+			);
+			path = "iOs_touch-and-move";
+			sourceTree = "<group>";
+		};
+		3FD29B8116FF54B400B1D877 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3FD29B8216FF54B400B1D877 /* iOs_touch-and-move-Info.plist */,
+				3FD29B8316FF54B400B1D877 /* InfoPlist.strings */,
+				3FD29B8616FF54B400B1D877 /* main.m */,
+				3FD29B8816FF54B400B1D877 /* iOs_touch-and-move-Prefix.pch */,
+				3FD29B8C16FF54B400B1D877 /* Default.png */,
+				3FD29B8E16FF54B400B1D877 /* Default@2x.png */,
+				3FD29B9016FF54B400B1D877 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FD29B7616FF54B400B1D877 /* iOs_touch-and-move */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FD29B9A16FF54B400B1D877 /* Build configuration list for PBXNativeTarget "iOs_touch-and-move" */;
+			buildPhases = (
+				3FD29B7316FF54B400B1D877 /* Sources */,
+				3FD29B7416FF54B400B1D877 /* Frameworks */,
+				3FD29B7516FF54B400B1D877 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOs_touch-and-move";
+			productName = "iOs_touch-and-move";
+			productReference = 3FD29B7716FF54B400B1D877 /* iOs_touch-and-move.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FD29B6F16FF54B400B1D877 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Manuel Artero Anguita";
+			};
+			buildConfigurationList = 3FD29B7216FF54B400B1D877 /* Build configuration list for PBXProject "iOs_touch-and-move" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3FD29B6E16FF54B300B1D877;
+			productRefGroup = 3FD29B7816FF54B400B1D877 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FD29B7616FF54B400B1D877 /* iOs_touch-and-move */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FD29B7516FF54B400B1D877 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FD29B8516FF54B400B1D877 /* InfoPlist.strings in Resources */,
+				3FD29B8D16FF54B400B1D877 /* Default.png in Resources */,
+				3FD29B8F16FF54B400B1D877 /* Default@2x.png in Resources */,
+				3FD29B9116FF54B400B1D877 /* Default-568h@2x.png in Resources */,
+				3FD29B9716FF54B400B1D877 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FD29B7316FF54B400B1D877 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FD29B8716FF54B400B1D877 /* main.m in Sources */,
+				3FD29B8B16FF54B400B1D877 /* AppDelegate.m in Sources */,
+				3FD29B9416FF54B400B1D877 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3FD29B8316FF54B400B1D877 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FD29B8416FF54B400B1D877 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3FD29B9516FF54B400B1D877 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FD29B9616FF54B400B1D877 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FD29B9816FF54B400B1D877 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3FD29B9916FF54B400B1D877 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FD29B9B16FF54B400B1D877 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOs_touch-and-move/iOs_touch-and-move-Prefix.pch";
+				INFOPLIST_FILE = "iOs_touch-and-move/iOs_touch-and-move-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3FD29B9C16FF54B400B1D877 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOs_touch-and-move/iOs_touch-and-move-Prefix.pch";
+				INFOPLIST_FILE = "iOs_touch-and-move/iOs_touch-and-move-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FD29B7216FF54B400B1D877 /* Build configuration list for PBXProject "iOs_touch-and-move" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FD29B9816FF54B400B1D877 /* Debug */,
+				3FD29B9916FF54B400B1D877 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FD29B9A16FF54B400B1D877 /* Build configuration list for PBXNativeTarget "iOs_touch-and-move" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FD29B9B16FF54B400B1D877 /* Debug */,
+				3FD29B9C16FF54B400B1D877 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FD29B6F16FF54B400B1D877 /* Project object */;
+}
