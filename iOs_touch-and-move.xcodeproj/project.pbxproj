@@ -18,6 +18,9 @@
 		3FD29B9116FF54B400B1D877 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FD29B9016FF54B400B1D877 /* Default-568h@2x.png */; };
 		3FD29B9416FF54B400B1D877 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD29B9316FF54B400B1D877 /* ViewController.m */; };
 		3FD29B9716FF54B400B1D877 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FD29B9516FF54B400B1D877 /* ViewController.xib */; };
+		3FD29BA016FF586400B1D877 /* back-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FD29B9D16FF586400B1D877 /* back-1.png */; };
+		3FD29BA116FF586400B1D877 /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FD29B9E16FF586400B1D877 /* ball.png */; };
+		3FD29BA216FF586400B1D877 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FD29B9F16FF586400B1D877 /* Icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,9 @@
 		3FD29B9216FF54B400B1D877 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		3FD29B9316FF54B400B1D877 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3FD29B9616FF54B400B1D877 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		3FD29B9D16FF586400B1D877 /* back-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-1.png"; sourceTree = "<group>"; };
+		3FD29B9E16FF586400B1D877 /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
+		3FD29B9F16FF586400B1D877 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,9 @@
 		3FD29B8116FF54B400B1D877 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3FD29B9D16FF586400B1D877 /* back-1.png */,
+				3FD29B9E16FF586400B1D877 /* ball.png */,
+				3FD29B9F16FF586400B1D877 /* Icon.png */,
 				3FD29B8216FF54B400B1D877 /* iOs_touch-and-move-Info.plist */,
 				3FD29B8316FF54B400B1D877 /* InfoPlist.strings */,
 				3FD29B8616FF54B400B1D877 /* main.m */,
@@ -163,6 +172,9 @@
 				3FD29B8F16FF54B400B1D877 /* Default@2x.png in Resources */,
 				3FD29B9116FF54B400B1D877 /* Default-568h@2x.png in Resources */,
 				3FD29B9716FF54B400B1D877 /* ViewController.xib in Resources */,
+				3FD29BA016FF586400B1D877 /* back-1.png in Resources */,
+				3FD29BA116FF586400B1D877 /* ball.png in Resources */,
+				3FD29BA216FF586400B1D877 /* Icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
