@@ -14,13 +14,20 @@
 @synthesize background;
 @synthesize ball_image;
 @synthesize shrink_button;
-@synthesize move_button;
-@synthesize change_button;
+@synthesize move_button;    // not in the tutorial
+@synthesize change_button;  // not in the tutorial
 
+/* viewDidLoad is the first viewController method will be executed */
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
+    // additional setup
+    self->shrink_state = NO;
+    //reduce the image: 25% x; 25% y
+    self->size = CGAffineTransformMakeScale(0.25, 0.25);
+    // translate the image y:100 up
+    self->translate = CGAffineTransformMakeTranslation(0, -100);
 }
 
 /*
@@ -41,9 +48,39 @@
     [super dealloc];
 }
 
+/* resize <ball_image> */
 - (IBAction)shrink:(id)sender
 {
-    //TODO
+    // 1) change the button text: shrink <==> grow
+    if (shrink_state) {
+        [shrink_button setTitle:@"Shrink" forState:UIControlStateNormal];
+    } else {
+        [shrink_button setTitle:@"Grow" forState:UIControlStateNormal];
+    }
+
+    // 2) button presed
+    if (shrink_state == NO) {
+        shrink_state = YES;
+        
+        // A) init animation for 1 sec
+        [UIView beginAnimations:nil context:NULL];
+        [UIView setAnimationDuration:1.0];
+        // B) resize
+        ball_image.transform = size;
+        //ball_image.transform = CGAffineTransformScale(translate, .25, .25);
+        // C) commit animation
+        [UIView commitAnimations];
+    } else {
+        shrink_state = NO;
+        
+        // A) init animation for 1 sec
+        [UIView beginAnimations:nil context:NULL];
+        [UIView setAnimationDuration:1.0];
+        // B) resize to original state
+        ball_image.transform = CGAffineTransformIdentity;
+        // C) commit animation
+        [UIView commitAnimations];
+    }
 }
 
 - (IBAction)move:(id)sender

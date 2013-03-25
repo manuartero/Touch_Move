@@ -26,8 +26,8 @@
 @property(retain, nonatomic) UIImageView* background;
 @property(retain, nonatomic) UIImageView* ball_image;
 @property(retain, nonatomic) UIButton* shrink_button;
-@property(retain, nonatomic) UIButton* move_button;
-@property(retain, nonatomic) UIButton* change_button;
+@property(retain, nonatomic) UIButton* move_button;     // not in the tutorial
+@property(retain, nonatomic) UIButton* change_button;   // not in the tutorial
 
 - (IBAction)shrink:(id)sender;
 - (IBAction)move:(id)sender;
