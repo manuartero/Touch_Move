@@ -22,11 +22,22 @@
 {
     [super viewDidLoad];
 	
-    // additional setup
-    self->shrink_state = NO;
-    //reduce the image: 25% x; 25% y
+    // 1) additional setup: initialize attributes
+    self->has_moved = NO;
+    self->has_shrunk = NO;
+    self->back_images = [NSArray alloc];
+    /*
+    self->back_images = [ [NSArray alloc] initWithObjects:
+                         [UIImageView imageNamed:@"nombre1.png"],
+                         [UIImageView imageNamed:@"nombre2.png"],
+                         [UIImageView imageNamed:@"nombre3.png"],
+                        nil ];
+    */
+    
+    // 2) define how much will the "shrunk button" reduce the image: 25%X; 25%Y
     self->size = CGAffineTransformMakeScale(0.25, 0.25);
-    // translate the image y:100 up
+    
+    // 3) define how much will the "translate button" move the image: Y-100-UP
     self->translate = CGAffineTransformMakeTranslation(0, -100);
 }
 
@@ -38,6 +49,7 @@
 }
 */
 
+
 - (void)dealloc
 {
     [background release];
@@ -45,22 +57,46 @@
     [shrink_button release];
     [move_button release];
     [change_button release];
+    [back_images release];
     [super dealloc];
 }
 
-/* resize <ball_image> */
+
+/**
+ * Method which responds to <Touch Events>
+ */
+- (void) touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event
+{
+    // 1) define <touch> object
+    UITouch *touch = [[event allTouches] anyObject];
+    
+    // 2) check if the user has touched IN the icon:
+    //    CGRectContainsPoint(rectangule, point)
+    if (CGRectContainsPoint( [ball_image frame], [touch locationInView:nil] )) {
+        // TODO
+        
+        // 3) Translate the icon to the touched point
+        ball_image.center = [touch locationInView:nil];
+    }
+    
+
+}
+
+
+/* resize the <ball_image> icon */
 - (IBAction)shrink:(id)sender
 {
     // 1) change the button text: shrink <==> grow
-    if (shrink_state) {
+    if (has_shrunk) {
         [shrink_button setTitle:@"Shrink" forState:UIControlStateNormal];
     } else {
         [shrink_button setTitle:@"Grow" forState:UIControlStateNormal];
     }
 
-    // 2) button presed
-    if (shrink_state == NO) {
-        shrink_state = YES;
+    // 2) button pressed
+    
+    if (has_shrunk == NO && has_moved == YES) {
+    // shrunk the icon
         
         // A) init animation for 1 sec
         [UIView beginAnimations:nil context:NULL];
@@ -70,8 +106,11 @@
         //ball_image.transform = CGAffineTransformScale(translate, .25, .25);
         // C) commit animation
         [UIView commitAnimations];
-    } else {
-        shrink_state = NO;
+    
+        has_shrunk = YES;
+        
+    } else if (has_shrunk == NO && has_moved == YES) {
+    // let the icon in its place; shrunk the icon
         
         // A) init animation for 1 sec
         [UIView beginAnimations:nil context:NULL];
@@ -80,6 +119,18 @@
         ball_image.transform = CGAffineTransformIdentity;
         // C) commit animation
         [UIView commitAnimations];
+    
+        has_shrunk = YES;
+        
+    } else if (has_shrunk == NO && has_moved == NO) {
+    // move to its new location; grow the icon
+        
+        has_shrunk = NO;
+        
+    } else {
+    // move to the original place; grwo the icon
+        
+        has_shrunk = NO;
     }
 }
 

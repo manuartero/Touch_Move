@@ -17,8 +17,10 @@
     IBOutlet UIButton *move_button;     // not in the tutorial
     IBOutlet UIButton *change_button;   // not in the tutorial
     
-    // objects declaration
-    BOOL shrink_state;
+    // Attributes declaration
+    BOOL has_moved;
+    BOOL has_shrunk;
+    NSArray* back_images;            
     CGAffineTransform translate;
     CGAffineTransform size;
 }
